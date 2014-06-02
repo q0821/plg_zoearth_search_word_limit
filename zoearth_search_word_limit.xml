@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="search" method="upgrade">
+    <name>Zoearth Search Word Limit</name>
+    <author>Zoearth</author>
+    <creationDate>20140602</creationDate>
+    <copyright>Copyright (c)</copyright>
+    <authorEmail>zoearthmoon@gmail.com</authorEmail>
+    <authorUrl></authorUrl>
+    <version>1.0.0</version>
+    <description>
+    <![CDATA[
+    <div style="text-align:left">
+        <blockquote>
+        <p>您好!這是zoearth 的修改語系最小搜尋字元外掛</p>
+        <small></small>
+        </blockquote>
+        <dl class="dl-horizontal">
+        <dt>1.0.0版本</dt><dd>設定字元數功能</dd>
+        </dl>
+    </div>
+    ]]>
+	</description>
+    <files>
+        <filename plugin="zoearth_search_word_limit">zoearth_search_word_limit.php</filename>
+    </files>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.plg_search_zoearth_search_word_limit.ini</language>
+		
+        <language tag="zh-TW">zh-TW/zh-TW.plg_search_zoearth_search_word_limit.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="search_limit" type="text" size="5" default="1" label="ZOEARTH_SEARCH_LIMIT" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>

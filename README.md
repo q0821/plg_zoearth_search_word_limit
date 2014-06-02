@@ -1,9 +1,9 @@
-tpl_zoearthblog_01
+plg_zoearth_search_word_limit
 ==================
 
 <div style="text-align:left">
 	<blockquote>
-	<p>您好!這是zoearth 的修改語系最小搜尋字元外掛</p>
+	<p>您好!這是Joomla的外掛 plg_zoearth_search_word_limit 的修改語系最小搜尋字元外掛</p>
 	<small></small>
 	</blockquote>
 	<dl class="dl-horizontal">

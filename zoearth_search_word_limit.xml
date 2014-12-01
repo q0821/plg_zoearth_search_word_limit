@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.0" type="plugin" group="search" method="upgrade">
-    <name>Zoearth Search Word Limit</name>
+    <name>plg_zoearth_search_word_limit</name>
     <author>Zoearth</author>
     <creationDate>20140602</creationDate>
     <copyright>Copyright (c)</copyright>
